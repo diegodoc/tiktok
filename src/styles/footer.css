@@ -1,0 +1,36 @@
+.footer {
+    position: relative;
+    bottom: 20%;
+    color: white;
+    margin-left: 30px;
+}
+.footer_text h3{
+    padding-bottom: 20px;
+}
+.footer_text p{
+    padding-bottom: 20px;
+}
+
+.footer_music {
+    display: flex;
+}
+
+.footer_icon {
+    animation: spinTheRecord 4s infinite linear;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    height: 50px;
+    filter: invert(1);
+}
+
+@keyframes spinTheRecord {
+    0% {
+    transform: rotate(0deg);
+
+    }
+    100%{
+        transform: rotate(360deg);
+
+    }
+}
