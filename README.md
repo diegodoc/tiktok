@@ -1,5 +1,7 @@
 # Getting started With the TikTok clone!
-This project is being made during the EBAC webinar 
+
+This project is being made during the EBAC webinar
+
 ## Main Goals:
 
     1- Learn how to develop web applications using React

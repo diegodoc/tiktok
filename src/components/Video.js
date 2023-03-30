@@ -5,7 +5,7 @@ function Video() {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
 
-  function handlePlay() {
+  const handlePlay = () => {
     if (play) {
       videoRef.current.pause();
       setPlay(false);
@@ -13,7 +13,7 @@ function Video() {
       videoRef.current.play();
       setPlay(true);
     }
-  }
+  };
 
   return (
     <div className="video">
