@@ -19,6 +19,7 @@ html {
   overflow: scroll;
   scroll-snap-type: y mandatory;
   position: relative;
+  scrollbar-width: none;
 }
 
 .app_videos::-webkit-scrollbar {
