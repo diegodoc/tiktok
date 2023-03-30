@@ -5,7 +5,7 @@ function Video() {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
 
-  function handlePlay() {
+  const handlePlay = () => {
     if (play) {
       videoRef.current.pause();
       setPlay(false);
@@ -13,7 +13,7 @@ function Video() {
       videoRef.current.play();
       setPlay(true);
     }
-  }
+  };
 
   return (
     <div className="video">
@@ -21,7 +21,7 @@ function Video() {
         className="video_player"
         ref={videoRef}
         onClick={handlePlay}
-        src="https://firebasestorage.googleapis.com/v0/b/jornada-dev.appspot.com/o/brecker2.mp4?alt=media&token=b5399418-9276-4e53-a706-1e00290c2c74"
+        src="https://firebasestorage.googleapis.com/v0/b/jornadadevtr.appspot.com/o/WhatsApp%20Video%202023-03-29%20at%2020.04.52.mp4?alt=media&token=db4be029-27cc-4af9-b75d-3ce5fd1b1fe2"
         loop
       ></video>
     </div>
