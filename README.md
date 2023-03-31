@@ -12,6 +12,7 @@ This project is a TikTok clone being made during the [EBAC](https://ebac.art.br)
       </ul>
     </li>
     <li><a href="#goals">Goals</a></li>
+    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -80,10 +81,3 @@ Diego Clemente - diegoclementedoc@gmail.com
 
 Project Link: [https://github.com/diegodoc/intro-form](https://github.com/diegodoc/intro-form)
 
-<!-- ACKNOWLEDGMENTS -->
-
-## Acknowledgments
-
-- []()
-- []()
-- []()
