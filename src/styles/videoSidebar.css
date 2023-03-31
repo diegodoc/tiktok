@@ -1,0 +1,14 @@
+.videoSidebar {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  color: white;
+}
+.videoSidebar_options {
+  padding: 20px;
+  text-align: center;
+}
+
+#red_heart {
+  color: rgb(254, 46, 46);
+}

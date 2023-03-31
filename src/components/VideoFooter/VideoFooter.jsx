@@ -22,6 +22,6 @@ const VideoFooter = () => {
       />
     </div>
   );
-}
+};
 
 export default VideoFooter;
