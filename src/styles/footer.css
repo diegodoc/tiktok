@@ -17,12 +17,11 @@
 
 .video_music_text {
   width: 80%;
-  overflow-x:hidden ;
+  overflow-x: hidden;
 }
 
 .video_music_text p {
   animation: moveText 4s infinite linear;
-
 }
 
 .footer_icon {
@@ -42,7 +41,6 @@
     transform: translateX(-100%);
   }
 }
-
 
 @keyframes spinTheRecord {
   0% {
