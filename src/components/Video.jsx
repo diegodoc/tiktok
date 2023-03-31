@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "../styles/video.css";
 import VideoFooter from "./VideoFooter/VideoFooter";
 
-function Video() {
+const Video = () => {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
 
@@ -29,6 +29,6 @@ function Video() {
       <VideoFooter />
     </div>
   );
-}
+};
 
 export default Video;

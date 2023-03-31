@@ -19,18 +19,20 @@ This project is a TikTok clone being made during the [EBAC](https://ebac.art.br)
 </details>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 This project is a TikTok clone being made during the EBAC webinar, with the goal of improving my personal skills.
 
 ### Stack Used
 
-* React
-* CSS
-* Node.js
-* Firebase
+- React
+- CSS
+- Node.js
+- Firebase
 
 ## Goals
+
 1. Learn how to develop web applications using React
 2. Learn how to manage the back-end using Node
 3. Learn how to integrate front and back end
@@ -40,20 +42,23 @@ This project is a TikTok clone being made during the EBAC webinar, with the goal
 7. Be confident in my skills to build a semi-complex application from scratch
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 ![](gif.gif)
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [x] Build initial Layout
 - [x] Add Video Component along with play/pause features
 - [x] Add Footer Component with CSS Animations
-    - [x] Backtracked and used [Vite](https://vitejs.dev/) instead of create-react-app
+  - [x] Backtracked and used [Vite](https://vitejs.dev/) instead of create-react-app
 - [ ] Sidebar implementation
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -67,25 +72,18 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
 Diego Clemente - diegoclementedoc@gmail.com
 
 Project Link: [https://github.com/diegodoc/intro-form](https://github.com/diegodoc/intro-form)
 
-
-
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 ## Acknowledgments
 
-* []()
-* []()
-* []()
-
-
-
+- []()
+- []()
+- []()

@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/footer.css";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 
-function VideoFooter() {
+const VideoFooter = () => {
   return (
     <div className="footer">
       <div className="footer_text">
