@@ -80,4 +80,3 @@ Don't forget to give the project a star! Thanks again!
 Diego Clemente - diegoclementedoc@gmail.com
 
 Project Link: [https://github.com/diegodoc/intro-form](https://github.com/diegodoc/intro-form)
-

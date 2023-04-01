@@ -3,7 +3,7 @@ import "../styles/video.css";
 import VideoFooter from "./VideoFooter/VideoFooter";
 import VideoSidebar from "../components/sidebar/VideoSidebar";
 
-const Video = () => {
+const Video = ({ likes, messages, shares, name, description, music, url }) => {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
 
@@ -23,11 +23,11 @@ const Video = () => {
         className="video_player"
         ref={videoRef}
         onClick={handlePlay}
-        src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/brecker2.mp4"
+        src={url}
         loop
       ></video>
-      <VideoSidebar />
-      <VideoFooter />
+      <VideoSidebar likes={likes} messages={messages} shares={shares} />
+      <VideoFooter name={name} description={description} music={music} />
     </div>
   );
 };

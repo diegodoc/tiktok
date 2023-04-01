@@ -2,16 +2,16 @@ import React from "react";
 import "../../styles/footer.css";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 
-const VideoFooter = () => {
+const VideoFooter = ({ name, description, music }) => {
   return (
     <div className="footer">
       <div className="footer_text">
-        <h3>@ulala3000</h3>
-        <p>Gatinho com fome</p>
+        <h3>{name}</h3>
+        <p>{description}</p>
         <div className="footer_music">
           <MusicNoteIcon />
           <div className="video_music_text">
-            <p>Musica horrivel estourada</p>
+            <p>{music}</p>
           </div>
         </div>
       </div>
