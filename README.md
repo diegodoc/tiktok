@@ -56,7 +56,8 @@ This project is a TikTok clone being made during the EBAC webinar, with the goal
 - [x] Add Video Component along with play/pause features
 - [x] Add Footer Component with CSS Animations
   - [x] Backtracked and used [Vite](https://vitejs.dev/) instead of create-react-app
-- [ ] Sidebar implementation
+- [x] Sidebar implementation
+- [ ] Database setup
 
 <!-- CONTRIBUTING -->
 
